@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- Fontawesome 6 CND-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div id="app">
+        <nav class="orange darken-2">
+            <div class="nav-wrapper"></div>
+        </nav>
+
+        ​
+        <div class="container">
+            <div class="section">
+                <!--   Icon Section   -->
+                <div class="row">
+                    <!-- card de tarefa que repete para cada item do array -->
+                    <span>Tipo da tarefa: </span><input v-model="tipo" type="name">
+                    <br>
+                    <br>
+                    <span>Tarefa: </span><input v-model="titulo" type="name">
+
+                    <button @click="addNewTask()" href="index.html" type="submit"><a
+                            href="index.html">Enviar</a></button>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        ​
+        <footer class="page-footer orange darken-3">
+            <div class="footer-copyright">
+                <div class="container">© 2022 Frontend</div>
+            </div>
+        </footer>
+    </div>
+    <!-- app -->
+    ​
+    <!-- Materialize JavaScript CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    ​
+    <script src="todo.js"></script>
+</body>
+
+</html>

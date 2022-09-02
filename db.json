@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "titulo": "lição de casa",
+      "check": false,
+      "tipo": "matematica",
+      "data": "2022-09-02T12:13:57.468Z",
+      "id": 1
+    },
+    {
+      "titulo": "crud",
+      "check": false,
+      "tipo": "vue js",
+      "data": "2022-09-02T12:14:13.756Z",
+      "id": 2
+    }
+  ]
+}
